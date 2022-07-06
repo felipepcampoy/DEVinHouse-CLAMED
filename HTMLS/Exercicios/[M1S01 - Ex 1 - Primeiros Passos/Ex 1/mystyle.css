@@ -1,8 +1,42 @@
 body {
     background-color: burlywood;
   }
+
+  /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(185, 137, 48);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 150px; /* Add a top margin to avoid content overlay */
+}
+
   
   h1 {
+    
+    background-image: url("https://www.tudodesenhos.com/uploads/images/3740/gato-preto-e-abobora.jpg");
+    background-color: #cccccc;
   
     font-family: verdana;
     font-size: 20px;
@@ -24,5 +58,8 @@ body {
   border: 2px solid black;
   padding: 10px;
   margin: 20px;
+  }
 
+  .inframe{
+    align-content: center;
   }
